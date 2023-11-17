@@ -1,17 +1,22 @@
 import { useState } from 'react'
-import './App.css'
 import Collection from './assets/component/Monthly/Collection';
+import Navbar from './assets/component/Navbar/Navbar';
+import Single from './assets/component/Single/Single'
 
 function App() {
-  const [mainStatus, setStatus] = useState(true);
+  const [mainStatus, setStatus] = useState(false);
+
+  function handleChangeSite() {
+    setStatus(!mainStatus);
+  }
 
   let page;
 
   if (mainStatus) {
-    page = <Single />;
+    page = <Single more={handleChangeSite}/>;
   }
   else {
-    page = <Collection />;
+    page = <Collection more={handleChangeSite}/>;
   }
 
   return (
