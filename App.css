@@ -1,0 +1,45 @@
+html { overflow-y: scroll; 
+  height:7000px;
+}
+
+#nav-header{
+  position: sticky;
+  background-color: #61dafb;
+  border: 2px solid #4CAF50;
+  top: 0;
+  height: 100px;
+  width: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  border-radius: 100px;
+}
+
+#logo {
+  position: absolute;
+  height: 80%;
+  width: auto;
+  left: 5%;
+  top: 10%;
+}
+
+.menu-style{
+  display: inline-block;
+  margin-left: 15%; 
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 30px;
+}
+
+#current-location{
+  position: absolute;
+  display: inline-block;
+  margin-left: 15%; 
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 30px;
+}
