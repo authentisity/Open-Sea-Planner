@@ -6,14 +6,16 @@ function Navbar(props){
             <a href="/index.html">
                 <img src={require("./fish.png")} alt="not loaded" id="logo"></img>
             </a>
-            <div id="menu">
-                <ul>
-                    <li class="menu-style">Hello World</li>
-                </ul>
-                <span id="current-location">{props.location + "\n" + props.zip}</span>
-            </div>
+            <ul id="menu">
+                {/* <li class="menu-style">Hello World</li> */}
+                <li class="location">{props.location}Test1</li>
+                <li class="location">{props.zip}Test2</li>
+            </ul>
+            <input type="text" placeholder="Search by " id="search-bar" onKeyDown={SearchGo()}></input>
+            <button type="submit" id="search-button"><img src={require("./fish.png")} alt="not loaded" id="button-icon"></img></button>
         </div>
     );
 }
 
 export default Navbar;
+function SearchGo(){}
