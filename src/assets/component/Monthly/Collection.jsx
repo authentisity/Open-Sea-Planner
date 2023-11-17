@@ -11,7 +11,27 @@ export default function Collection({more}) {
       <Square change={more}>1</Square>
       <Square change={more}>1</Square>
       <Square change={more}>1</Square>
-
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
+      <Square change={more}>1</Square>
     </div>
   );
 };
