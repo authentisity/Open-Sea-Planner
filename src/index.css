@@ -11,6 +11,10 @@ body, div, p, button {
   padding: 2rem;
 }
 
+#title {
+  text-align: center;
+}
+
 #collection {
   max-width: 90rem;
   display: grid;
@@ -20,17 +24,21 @@ body, div, p, button {
   gap: 1rem;
 }
 
+
 .day-button button{
-  width: 9rem;
-  height: 9rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 1rem;
   border: 0;
 }
 
-@media screen and (max-width: 900px)
+@media screen and (max-width: 1260px)
 {
   #collection {
-    grid-template-columns: repeat(1, minmax(2rem, 1fr));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
   }
 }
